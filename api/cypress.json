@@ -1,0 +1,17 @@
+{
+  "baseUrl": "https://localhost",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "overwrite": false,
+    "html": false,
+    "json": true,
+    "charts": true
+  },
+  "screenshotsFolder": "report/screenshots",
+  "video": false,
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 7000,
+  "requestTimeout": 10000,
+  "responseTimeout": 10000,
+  "projectId": "n148pt"
+}

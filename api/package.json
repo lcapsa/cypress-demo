@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "report": "mochawesome-merge mochawesome-report/*.json > test-report.json & marge --reportDir report test-report.json & rimraf -r test-report.json mochawesome-report",
+    "tests": "npx cypress run"
+  },
+  "devDependencies": {
+    "@jc21/cypress-jsonschema-validation": "0.0.1",
+    "cypress": "^6.3.0",
+    "cypress-select-tests": "^1.5.8",
+    "dotenv": "^8.2.0",
+    "fs-extra": "^9.0.1",
+    "mocha": "^8.2.1",
+    "mochawesome": "^6.2.1",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.1.0",
+    "prettier": "2.2.0",
+    "rimraf": "^3.0.2",
+    "socket.io-client": "^3.1.1",
+    "uuid": "^8.3.2"
+  }
+}

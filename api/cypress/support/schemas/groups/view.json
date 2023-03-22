@@ -1,0 +1,232 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "meta": {
+        "countTotal": "2",
+        "countData": "2",
+        "countOffset": "0"
+      },
+      "data": [
+        {
+          "grpID": "195",
+          "grpName": "demo",
+          "grpDescription": "demo description",
+          "grpIsPublic": "1",
+          "grpCrID": "1",
+          "grpCoverUrl": "https://s3.eu-west-1.amazonaws.com/adservio-workgroups/2/21-01/11/6b6bfa70-1a67caed725c51639752c0c2a0bad22a.jpg",
+          "grpCreatedDate": "2021-01-20 18:03:27",
+          "grpmRole": "2",
+          "grpMemberCount": "1"
+        },
+        {
+          "grpID": "194",
+          "grpName": "demo",
+          "grpDescription": null,
+          "grpIsPublic": "0",
+          "grpCrID": "1",
+          "grpCoverUrl": "https://s3.eu-west-1.amazonaws.com/adservio-workgroups/2/21-01/11/6b6bfa70-1a67caed725c51639752c0c2a0bad22a.jpg",
+          "grpCreatedDate": "2021-01-20 18:03:12",
+          "grpmRole": "2",
+          "grpMemberCount": "1"
+        }
+      ]
+    }
+  ],
+  "required": ["meta", "data"],
+  "properties": {
+    "meta": {
+      "$id": "#/properties/meta",
+      "type": "object",
+      "title": "The meta schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "countTotal": "2",
+          "countData": "2",
+          "countOffset": "0"
+        }
+      ],
+      "required": ["countTotal", "countData", "countOffset"],
+      "properties": {
+        "countTotal": {
+          "$id": "#/properties/meta/properties/countTotal",
+          "type": "string",
+          "title": "The countTotal schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["2"]
+        },
+        "countData": {
+          "$id": "#/properties/meta/properties/countData",
+          "type": "string",
+          "title": "The countData schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["2"]
+        },
+        "countOffset": {
+          "$id": "#/properties/meta/properties/countOffset",
+          "type": "string",
+          "title": "The countOffset schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["0"]
+        }
+      },
+      "additionalProperties": false
+    },
+    "data": {
+      "$id": "#/properties/data",
+      "type": "array",
+      "title": "The data schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "examples": [
+        [
+          {
+            "grpID": "195",
+            "grpName": "demo",
+            "grpDescription": "demo description",
+            "grpIsPublic": "1",
+            "grpCrID": "1",
+            "grpCoverUrl": "https://s3.eu-west-1.amazonaws.com/adservio-workgroups/2/21-01/11/6b6bfa70-1a67caed725c51639752c0c2a0bad22a.jpg",
+            "grpCreatedDate": "2021-01-20 18:03:27",
+            "grpmRole": "2",
+            "grpMemberCount": "1"
+          },
+          {
+            "grpID": "194",
+            "grpName": "demo",
+            "grpDescription": null,
+            "grpIsPublic": "0",
+            "grpCrID": "1",
+            "grpCoverUrl": "https://s3.eu-west-1.amazonaws.com/adservio-workgroups/2/21-01/11/6b6bfa70-1a67caed725c51639752c0c2a0bad22a.jpg",
+            "grpCreatedDate": "2021-01-20 18:03:12",
+            "grpmRole": "2",
+            "grpMemberCount": "1"
+          }
+        ]
+      ],
+      "additionalItems": true,
+      "items": {
+        "$id": "#/properties/data/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/data/items/anyOf/0",
+            "type": "object",
+            "title": "The first anyOf schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+              {
+                "grpID": "195",
+                "grpName": "demo",
+                "grpDescription": "demo description",
+                "grpIsPublic": "1",
+                "grpCrID": "1",
+                "grpCoverUrl": "https://s3.eu-west-1.amazonaws.com/adservio-workgroups/2/21-01/11/6b6bfa70-1a67caed725c51639752c0c2a0bad22a.jpg",
+                "grpCreatedDate": "2021-01-20 18:03:27",
+                "grpmRole": "2",
+                "grpMemberCount": "1"
+              }
+            ],
+            "required": [
+              "grpID",
+              "grpName",
+              "grpDescription",
+              "grpIsPublic",
+              "grpCrID",
+              "grpCoverUrl",
+              "grpCreatedDate"
+            ],
+            "properties": {
+              "grpID": {
+                "$id": "#/properties/data/items/anyOf/0/properties/grpID",
+                "type": "string",
+                "title": "The grpID schema",
+                "description": "The created group id.",
+                "default": "",
+                "examples": ["195"]
+              },
+              "grpName": {
+                "$id": "#/properties/data/items/anyOf/0/properties/grpName",
+                "type": "string",
+                "title": "The grpName schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": ["demo"]
+              },
+              "grpDescription": {
+                "$id": "#/properties/data/items/anyOf/0/properties/grpDescription",
+                "type": "string",
+                "title": "The grpDescription schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": ["demo description"]
+              },
+              "grpIsPublic": {
+                "$id": "#/properties/data/items/anyOf/0/properties/grpIsPublic",
+                "type": "string",
+                "title": "The grpIsPublic schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": ["1"]
+              },
+              "grpCrID": {
+                "$id": "#/properties/data/items/anyOf/0/properties/grpCrID",
+                "type": "string",
+                "title": "The grpCrID schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": ["1"]
+              },
+              "grpCoverUrl": {
+                "$id": "#/properties/data/items/anyOf/0/properties/grpCoverUrl",
+                "type": "string",
+                "title": "The grpCoverUrl schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "https://s3.eu-west-1.amazonaws.com/adservio-workgroups/2/21-01/11/6b6bfa70-1a67caed725c51639752c0c2a0bad22a.jpg"
+                ]
+              },
+              "grpCreatedDate": {
+                "$id": "#/properties/data/items/anyOf/0/properties/grpCreatedDate",
+                "type": "string",
+                "title": "The grpCreatedDate schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": ["2021-01-20 18:03:27"]
+              },
+              "grpmRole": {
+                "$id": "#/properties/data/items/anyOf/0/properties/grpmRole",
+                "type": "string",
+                "title": "The grpmRole schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": ["2"]
+              },
+              "grpMemberCount": {
+                "$id": "#/properties/data/items/anyOf/0/properties/grpMemberCount",
+                "type": "string",
+                "title": "The grpMemberCount schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": ["1"]
+              }
+            },
+            "additionalProperties": false
+          }
+        ]
+      }
+    }
+  },
+  "additionalProperties": false
+}

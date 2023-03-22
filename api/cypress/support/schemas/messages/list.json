@@ -1,0 +1,582 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "meta": {
+        "totalCount": "13"
+      },
+      "data": [
+        {
+          "msgID": "30807",
+          "msgSubiect": "5163",
+          "msgDataInsert": "2021-02-15 21:03:44",
+          "msgAreAtasamente": "0",
+          "msgCitit": "0",
+          "msgStared": "0",
+          "msgExpeditor": {
+            "uaID": "5336",
+            "uaTip": "3",
+            "uaFirstName": "Mihaela",
+            "uaLastName": "Balan",
+            "uaSex": "2",
+            "prefAvatar": "https://oss-dev.adservio.net/avatar/5336-XUfvsKQ9xzWb2qi03ty5.png",
+            "functii": ["text_secretar"]
+          },
+          "msgStack": "0"
+        },
+        {
+          "msgID": "30806",
+          "msgSubiect": "[DIR] 5163",
+          "msgDataInsert": "2021-02-15 21:03:01",
+          "msgAreAtasamente": "0",
+          "msgCitit": "0",
+          "msgStared": "0",
+          "msgExpeditor": {
+            "uaID": "5336",
+            "uaTip": "3",
+            "uaFirstName": "Mihaela",
+            "uaLastName": "Balan",
+            "uaSex": "2",
+            "prefAvatar": "https://oss-dev.adservio.net/avatar/5336-XUfvsKQ9xzWb2qi03ty5.png",
+            "functii": ["text_secretar"]
+          },
+          "msgStack": "0"
+        },
+        {
+          "msgID": "30805",
+          "msgSubiect": "5163",
+          "msgDataInsert": "2021-02-15 21:02:33",
+          "msgAreAtasamente": "0",
+          "msgCitit": "0",
+          "msgStared": "0",
+          "msgExpeditor": {
+            "uaID": "5336",
+            "uaTip": "3",
+            "uaFirstName": "Mihaela",
+            "uaLastName": "Balan",
+            "uaSex": "2",
+            "prefAvatar": "https://oss-dev.adservio.net/avatar/5336-XUfvsKQ9xzWb2qi03ty5.png",
+            "functii": ["text_secretar"]
+          },
+          "msgStack": "0"
+        },
+        {
+          "msgID": "30777",
+          "msgSubiect": "test",
+          "msgDataInsert": "2021-02-10 20:25:50",
+          "msgAreAtasamente": "0",
+          "msgCitit": "0",
+          "msgStared": "0",
+          "msgExpeditor": {
+            "uaID": "5335",
+            "uaTip": "3",
+            "uaFirstName": "Iuliana",
+            "uaLastName": "Popescu",
+            "uaSex": "2",
+            "prefAvatar": "https://dl.dev.adservio.net/adservio-avatar/45362d53ee305dcfb7d4696d8ae0be1e11d2d16acd7fbc8b04ce201fc37c7816.jpeg",
+            "functii": ["text_director", "text_educator", "text_profesor"]
+          },
+          "msgStack": "0"
+        },
+        {
+          "msgID": "30776",
+          "msgSubiect": "test",
+          "msgDataInsert": "2021-02-10 20:22:53",
+          "msgAreAtasamente": "0",
+          "msgCitit": "0",
+          "msgStared": "0",
+          "msgExpeditor": {
+            "uaID": "5336",
+            "uaTip": "3",
+            "uaFirstName": "Mihaela",
+            "uaLastName": "Balan",
+            "uaSex": "2",
+            "prefAvatar": "https://oss-dev.adservio.net/avatar/5336-XUfvsKQ9xzWb2qi03ty5.png",
+            "functii": ["text_secretar"]
+          },
+          "msgStack": "0"
+        },
+        {
+          "msgID": "30774",
+          "msgSubiect": "test videos",
+          "msgDataInsert": "2021-02-10 20:19:46",
+          "msgAreAtasamente": "1",
+          "msgCitit": "0",
+          "msgStared": "0",
+          "msgExpeditor": {
+            "uaID": "156430",
+            "uaTip": "2",
+            "uaFirstName": "Automation QA",
+            "uaLastName": "Parent",
+            "uaSex": "1",
+            "prefAvatar": "",
+            "elev": {
+              "elevID": "156426",
+              "elevPrenume": "Automation QA",
+              "elevNume": "Student",
+              "elevSex": "2"
+            },
+            "clasa": {
+              "clID": "308",
+              "clNume": "V AUTOMATION QA",
+              "ascIsActiv": "1",
+              "ascNume": "2019/2020"
+            }
+          },
+          "msgStack": "0"
+        },
+        {
+          "msgID": "30772",
+          "msgSubiect": "attach video",
+          "msgDataInsert": "2021-02-10 20:17:54",
+          "msgAreAtasamente": "1",
+          "msgCitit": "1",
+          "msgStared": "0",
+          "msgExpeditor": {
+            "uaID": "156426",
+            "uaTip": "1",
+            "uaFirstName": "Automation QA",
+            "uaLastName": "Student",
+            "uaSex": "2",
+            "prefAvatar": "",
+            "clasa": {
+              "clID": "308",
+              "clNume": "V AUTOMATION QA",
+              "ascIsActiv": "1",
+              "ascNume": "2019/2020"
+            }
+          },
+          "msgStack": "0"
+        },
+        {
+          "msgID": "30770",
+          "msgSubiect": "attach max limit",
+          "msgDataInsert": "2021-02-10 20:11:08",
+          "msgAreAtasamente": "1",
+          "msgCitit": "0",
+          "msgStared": "0",
+          "msgExpeditor": {
+            "uaID": "156426",
+            "uaTip": "1",
+            "uaFirstName": "Automation QA",
+            "uaLastName": "Student",
+            "uaSex": "2",
+            "prefAvatar": "",
+            "clasa": {
+              "clID": "308",
+              "clNume": "V AUTOMATION QA",
+              "ascIsActiv": "1",
+              "ascNume": "2019/2020"
+            }
+          },
+          "msgStack": "0"
+        },
+        {
+          "msgID": "30768",
+          "msgSubiect": "test attach pdf",
+          "msgDataInsert": "2021-02-10 20:05:13",
+          "msgAreAtasamente": "1",
+          "msgCitit": "0",
+          "msgStared": "0",
+          "msgExpeditor": {
+            "uaID": "156430",
+            "uaTip": "2",
+            "uaFirstName": "Automation QA",
+            "uaLastName": "Parent",
+            "uaSex": "1",
+            "prefAvatar": "",
+            "elev": {
+              "elevID": "156426",
+              "elevPrenume": "Automation QA",
+              "elevNume": "Student",
+              "elevSex": "2"
+            },
+            "clasa": {
+              "clID": "308",
+              "clNume": "V AUTOMATION QA",
+              "ascIsActiv": "1",
+              "ascNume": "2019/2020"
+            }
+          },
+          "msgStack": "0"
+        },
+        {
+          "msgID": "30766",
+          "msgSubiect": "[R] test 2 attach",
+          "msgDataInsert": "2021-02-10 19:59:55",
+          "msgAreAtasamente": "1",
+          "msgCitit": "0",
+          "msgStared": "0",
+          "msgExpeditor": {
+            "uaID": "156426",
+            "uaTip": "1",
+            "uaFirstName": "Automation QA",
+            "uaLastName": "Student",
+            "uaSex": "2",
+            "prefAvatar": "",
+            "clasa": {
+              "clID": "308",
+              "clNume": "V AUTOMATION QA",
+              "ascIsActiv": "1",
+              "ascNume": "2019/2020"
+            }
+          },
+          "msgStack": "0"
+        },
+        {
+          "msgID": "30765",
+          "msgSubiect": "[R] test",
+          "msgDataInsert": "2021-02-10 19:57:07",
+          "msgAreAtasamente": "1",
+          "msgCitit": "1",
+          "msgStared": "0",
+          "msgExpeditor": {
+            "uaID": "156426",
+            "uaTip": "1",
+            "uaFirstName": "Automation QA",
+            "uaLastName": "Student",
+            "uaSex": "2",
+            "prefAvatar": "",
+            "clasa": {
+              "clID": "308",
+              "clNume": "V AUTOMATION QA",
+              "ascIsActiv": "1",
+              "ascNume": "2019/2020"
+            }
+          },
+          "msgStack": "0"
+        },
+        {
+          "msgID": "30760",
+          "msgSubiect": "eslint demo",
+          "msgDataInsert": "2021-02-10 19:52:40",
+          "msgAreAtasamente": "0",
+          "msgCitit": "1",
+          "msgStared": "0",
+          "msgExpeditor": {
+            "uaID": "156426",
+            "uaTip": "1",
+            "uaFirstName": "Automation QA",
+            "uaLastName": "Student",
+            "uaSex": "2",
+            "prefAvatar": "",
+            "clasa": {
+              "clID": "308",
+              "clNume": "V AUTOMATION QA",
+              "ascIsActiv": "1",
+              "ascNume": "2019/2020"
+            }
+          },
+          "msgStack": "0"
+        },
+        {
+          "msgID": "30756",
+          "msgSubiect": "test",
+          "msgDataInsert": "2021-02-10 19:41:57",
+          "msgAreAtasamente": "1",
+          "msgCitit": "1",
+          "msgStared": "1",
+          "msgExpeditor": {
+            "uaID": "156426",
+            "uaTip": "1",
+            "uaFirstName": "Automation QA",
+            "uaLastName": "Student",
+            "uaSex": "2",
+            "prefAvatar": "",
+            "clasa": {
+              "clID": "308",
+              "clNume": "V AUTOMATION QA",
+              "ascIsActiv": "1",
+              "ascNume": "2019/2020"
+            }
+          },
+          "msgStack": "0"
+        }
+      ]
+    }
+  ],
+  "required": ["meta", "data"],
+  "properties": {
+    "meta": {
+      "$id": "#/properties/meta",
+      "type": "object",
+      "title": "The meta schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "totalCount": "13"
+        }
+      ],
+      "required": ["totalCount"],
+      "properties": {
+        "totalCount": {
+          "$id": "#/properties/meta/properties/totalCount",
+          "type": "string",
+          "title": "The totalCount schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": ["13"]
+        }
+      },
+      "additionalProperties": true
+    },
+    "data": {
+      "$id": "#/properties/data",
+      "type": "array",
+      "title": "The data schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "examples": [
+        [
+          {
+            "msgID": "30807",
+            "msgSubiect": "5163",
+            "msgDataInsert": "2021-02-15 21:03:44",
+            "msgAreAtasamente": "0",
+            "msgCitit": "0",
+            "msgStared": "0",
+            "msgExpeditor": {
+              "uaID": "5336",
+              "uaTip": "3",
+              "uaFirstName": "Mihaela",
+              "uaLastName": "Balan",
+              "uaSex": "2",
+              "prefAvatar": "https://oss-dev.adservio.net/avatar/5336-XUfvsKQ9xzWb2qi03ty5.png",
+              "functii": ["text_secretar"]
+            },
+            "msgStack": "0"
+          },
+          {
+            "msgID": "30806",
+            "msgSubiect": "[DIR] 5163",
+            "msgDataInsert": "2021-02-15 21:03:01",
+            "msgAreAtasamente": "0",
+            "msgCitit": "0",
+            "msgStared": "0",
+            "msgExpeditor": {
+              "uaID": "5336",
+              "uaTip": "3",
+              "uaFirstName": "Mihaela",
+              "uaLastName": "Balan",
+              "uaSex": "2",
+              "prefAvatar": "https://oss-dev.adservio.net/avatar/5336-XUfvsKQ9xzWb2qi03ty5.png",
+              "functii": ["text_secretar"]
+            },
+            "msgStack": "0"
+          }
+        ]
+      ],
+      "additionalItems": true,
+      "items": {
+        "$id": "#/properties/data/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/data/items/anyOf/0",
+            "type": "object",
+            "title": "The first anyOf schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+              {
+                "msgID": "30807",
+                "msgSubiect": "5163",
+                "msgDataInsert": "2021-02-15 21:03:44",
+                "msgAreAtasamente": "0",
+                "msgCitit": "0",
+                "msgStared": "0",
+                "msgExpeditor": {
+                  "uaID": "5336",
+                  "uaTip": "3",
+                  "uaFirstName": "Mihaela",
+                  "uaLastName": "Balan",
+                  "uaSex": "2",
+                  "prefAvatar": "https://oss-dev.adservio.net/avatar/5336-XUfvsKQ9xzWb2qi03ty5.png",
+                  "functii": ["text_secretar"]
+                },
+                "msgStack": "0"
+              }
+            ],
+            "required": [
+              "msgID",
+              "msgSubiect",
+              "msgDataInsert",
+              "msgAreAtasamente",
+              "msgCitit",
+              "msgStared",
+              "msgExpeditor",
+              "msgStack"
+            ],
+            "properties": {
+              "msgID": {
+                "$id": "#/properties/data/items/anyOf/0/properties/msgID",
+                "type": "string",
+                "title": "The msgID schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": ["30807"]
+              },
+              "msgSubiect": {
+                "$id": "#/properties/data/items/anyOf/0/properties/msgSubiect",
+                "type": "string",
+                "title": "The msgSubiect schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": ["5163"]
+              },
+              "msgDataInsert": {
+                "$id": "#/properties/data/items/anyOf/0/properties/msgDataInsert",
+                "type": "string",
+                "title": "The msgDataInsert schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": ["2021-02-15 21:03:44"]
+              },
+              "msgAreAtasamente": {
+                "$id": "#/properties/data/items/anyOf/0/properties/msgAreAtasamente",
+                "type": "string",
+                "title": "The msgAreAtasamente schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": ["0"]
+              },
+              "msgCitit": {
+                "$id": "#/properties/data/items/anyOf/0/properties/msgCitit",
+                "type": "string",
+                "title": "The msgCitit schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": ["0"]
+              },
+              "msgStared": {
+                "$id": "#/properties/data/items/anyOf/0/properties/msgStared",
+                "type": "string",
+                "title": "The msgStared schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": ["0"]
+              },
+              "msgExpeditor": {
+                "$id": "#/properties/data/items/anyOf/0/properties/msgExpeditor",
+                "type": "object",
+                "title": "The msgExpeditor schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": {},
+                "examples": [
+                  {
+                    "uaID": "5336",
+                    "uaTip": "3",
+                    "uaFirstName": "Mihaela",
+                    "uaLastName": "Balan",
+                    "uaSex": "2",
+                    "prefAvatar": "https://oss-dev.adservio.net/avatar/5336-XUfvsKQ9xzWb2qi03ty5.png",
+                    "functii": ["text_secretar"]
+                  }
+                ],
+                "required": [
+                  "uaID",
+                  "uaTip",
+                  "uaFirstName",
+                  "uaLastName",
+                  "uaSex",
+                  "prefAvatar",
+                  "functii"
+                ],
+                "properties": {
+                  "uaID": {
+                    "$id": "#/properties/data/items/anyOf/0/properties/msgExpeditor/properties/uaID",
+                    "type": "string",
+                    "title": "The uaID schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": ["5336"]
+                  },
+                  "uaTip": {
+                    "$id": "#/properties/data/items/anyOf/0/properties/msgExpeditor/properties/uaTip",
+                    "type": "string",
+                    "title": "The uaTip schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": ["3"]
+                  },
+                  "uaFirstName": {
+                    "$id": "#/properties/data/items/anyOf/0/properties/msgExpeditor/properties/uaFirstName",
+                    "type": "string",
+                    "title": "The uaFirstName schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": ["Mihaela"]
+                  },
+                  "uaLastName": {
+                    "$id": "#/properties/data/items/anyOf/0/properties/msgExpeditor/properties/uaLastName",
+                    "type": "string",
+                    "title": "The uaLastName schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": ["Balan"]
+                  },
+                  "uaSex": {
+                    "$id": "#/properties/data/items/anyOf/0/properties/msgExpeditor/properties/uaSex",
+                    "type": "string",
+                    "title": "The uaSex schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": ["2"]
+                  },
+                  "prefAvatar": {
+                    "$id": "#/properties/data/items/anyOf/0/properties/msgExpeditor/properties/prefAvatar",
+                    "type": "string",
+                    "title": "The prefAvatar schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "https://oss-dev.adservio.net/avatar/5336-XUfvsKQ9xzWb2qi03ty5.png"
+                    ]
+                  },
+                  "functii": {
+                    "$id": "#/properties/data/items/anyOf/0/properties/msgExpeditor/properties/functii",
+                    "type": "array",
+                    "title": "The functii schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": [],
+                    "examples": [["text_secretar"]],
+                    "additionalItems": true,
+                    "items": {
+                      "$id": "#/properties/data/items/anyOf/0/properties/msgExpeditor/properties/functii/items",
+                      "anyOf": [
+                        {
+                          "$id": "#/properties/data/items/anyOf/0/properties/msgExpeditor/properties/functii/items/anyOf/0",
+                          "type": "string",
+                          "title": "The first anyOf schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": ["text_secretar"]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "additionalProperties": true
+              },
+              "msgStack": {
+                "$id": "#/properties/data/items/anyOf/0/properties/msgStack",
+                "type": "string",
+                "title": "The msgStack schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": ["0"]
+              }
+            },
+            "additionalProperties": true
+          }
+        ]
+      }
+    }
+  },
+  "additionalProperties": true
+}

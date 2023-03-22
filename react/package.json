@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "report": "mochawesome-merge mochawesome-report/*.json > test-report.json & marge --reportDir report test-report.json",
+    "pretests": "rimraf -r report",
+    "tests": "npx cypress run",
+    "posttests": "npm run report & rimraf -r test-report.json mochawesome-report"
+  },
+  "devDependencies": {
+    "cypress": "^6.0.0",
+    "cypress-localstorage-commands": "^1.2.4",
+    "cypress-select-tests": "^1.5.8",
+    "dotenv": "^8.2.0",
+    "fs-extra": "^9.0.1",
+    "mocha": "^8.2.1",
+    "mochawesome": "^6.2.1",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.1.0",
+    "prettier": "2.2.0",
+    "rimraf": "^3.0.2"
+  }
+}

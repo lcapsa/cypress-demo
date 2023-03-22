@@ -1,0 +1,19 @@
+{
+  "baseUrl": "https://localhost",
+  "language": "ro",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "overwrite": false,
+    "html": false,
+    "json": true,
+    "charts": true
+  },
+  "videosFolder": "report/videos",
+  "screenshotsFolder": "report/screenshots",
+  "videoUploadOnPasses": false,
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 7000,
+  "requestTimeout": 10000,
+  "responseTimeout": 10000,
+  "projectId": "n148pt"
+}
